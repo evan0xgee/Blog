@@ -71,8 +71,8 @@
 
 
   安装：
-   
-  ```
+  
+```
   
   git clone git@github.com:Eval0day7/Blog.git
   
@@ -81,4 +81,4 @@
   npm install
   或
   cnpm install
-  ```
+```

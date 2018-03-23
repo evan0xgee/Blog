@@ -16,7 +16,7 @@ python manage.py createsuperuser
 
 # import database
 
-my database is 'blog',so you must create datebase in mysql
+my database is 'blog',so you must create datebase on mysql
 
 python manage.py makemigrations
 python manage.py migrate

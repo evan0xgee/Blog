@@ -21,6 +21,22 @@
   
    ```
      - Blog
-         
-   
+         - Backend             // 后端项目名称
+             - Backend  
+                 settings.py   //  配置文件，模板路径配置，中间件配置等
+                 urls.py       //  后端路由配置 
+                 wsgi.py       //  scoket
+             - blog            // 程序应用目录
+                 + migrations  // 存放编译好数据库操作文件
+                   __init__.py   
+                   admin.py    // django 后台管理文件 注册模型、修改后台标题
+                   apps.py     // 应用程序配置文件
+                   filter.py   // 条件过滤
+                   models.py   // 模型文件
+                   serializers.py  // 序列化  
+                   test.py
+                   views.py
+               manage.py  // 命令行工具，用于django 交互
+         - Frontend     // 前端
+             -
    ```

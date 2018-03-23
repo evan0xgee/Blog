@@ -11,6 +11,6 @@
       
       
       前端： Vue + Vue-router + Webpack + Sass + Axios + EsLint
-      后端： Django + REST framework
-      数据库： Mysql
+        后端： Django + REST framework
+        数据库： Mysql
   

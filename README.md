@@ -1,4 +1,7 @@
-# Blog verson 1.0
+# Blog v1.0
+
+  项目地址： http://www.istorms.net/
+ 
   概述： 
       
    该项目为前后端分离项目，前端采用Vue系列，后端采用Django框架并且结合Django REST framework提供数据接口支持。
@@ -55,6 +58,9 @@
               |   - router
               |       index.js                  // 前端路由配置文件
               |   - sass                        // css预编译工具Sass，scss文件
-              |       _common.scss              // 公共样式
+              |    |  _common.scss              // 公共样式
+              |    App.vue
+              |    main.js
              + static                           // 静态文件 存放图片、字体文件等
+             
    ```

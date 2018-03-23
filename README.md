@@ -72,7 +72,7 @@
 
   安装：
    
-    ```
+   ```
   
   git clone git@github.com:Eval0day7/Blog.git
   
@@ -82,4 +82,4 @@
   或
   cnpm install
   
-    ```
+   ```

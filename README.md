@@ -19,7 +19,11 @@
    后端： Django + REST framework
    
    数据库： Mysql
-   
+  
+  功能：
+
+  基础功能，后期完善。
+  
   目录结构：
   
   ```

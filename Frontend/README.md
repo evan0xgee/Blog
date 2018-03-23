@@ -1,4 +1,4 @@
-# frontend
+# Frontend
 
 > This is a Vue of Blog.
 

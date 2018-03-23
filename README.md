@@ -62,5 +62,9 @@
               |    App.vue
               |    main.js
              + static                           // 静态文件 存放图片、字体文件等
-             
+               .xxxx                            // babel 、 Eslint 、 git等 配置
+               index.html                       // 首页入口文件
+               package.json                     // 项目配置文件 项目依赖的相关插件包
+               package-lock.json                // 锁定安装时的插件包的版本 即 npm install 时 安装指定版本致使项目得以运行
+               README.md                        // 项目说明文档
    ```

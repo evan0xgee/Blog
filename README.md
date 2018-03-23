@@ -68,3 +68,17 @@
                package-lock.json                // 锁定安装时的插件包的版本 即 npm install 时 安装指定版本致使项目得以运行
                README.md                        // 项目说明文档
    ```
+   
+   安装：
+   
+  ```
+  
+  git clone git@github.com:Eval0day7/Blog.git
+  
+  cd /Blog/Frontend
+  
+  npm install
+  或
+  cnpm install
+  
+  ```

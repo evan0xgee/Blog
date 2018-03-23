@@ -21,22 +21,40 @@
   
    ```
      - Blog
-         - Backend             // 后端项目名称
+         - Backend                  // 后端项目名称
           |  - Backend  
-          |   |   settings.py   //  配置文件，模板路径配置，中间件配置等
-          |   |   urls.py       //  后端路由配置 
-          |   |   wsgi.py       //  scoket
-          |  - blog            // 程序应用目录
-          |   |   + migrations  // 存放编译好数据库操作文件
+          |   |   settings.py       //  配置文件，模板路径配置，中间件配置等
+          |   |   urls.py           //  后端路由配置 
+          |   |   wsgi.py           //  scoket
+          |  - blog                 // 程序应用目录
+          |   |   + migrations      // 存放编译好数据库操作文件目录
           |   |     __init__.py   
-          |   |     admin.py    // django 后台管理文件 注册模型、修改后台标题
-          |   |     apps.py     // 应用程序配置文件
-          |   |     filter.py   // 条件过滤
-          |   |     models.py   // 模型文件
+          |   |     admin.py        // django 后台管理文件 注册模型、修改后台标题
+          |   |     apps.py         // 应用程序配置文件
+          |   |     filter.py       // 条件过滤
+          |   |     models.py       // 模型文件
           |   |     serializers.py  // 序列化  
           |   |     test.py
-              |     views.py
-          |   manage.py  // 命令行工具，用于django 交互
-         - Frontend     // 前端
-             -
-   ```
+              |     views.py        // 视图文件，后端业务逻辑。
+          |    manage.py            // 命令行工具，用于django 交互
+          |
+         - Frontend                             // 前端
+             + build                            // 项目构建目录 Webpack 相关代码
+             + config                           // 配置目录
+             /* + dist */                       // 生产环境下，项目文件  执行 npm run build 会产生
+             + node_modules                     // npm 加载的项目依赖模块目录
+             - src                              // 项目源文件目录
+              |   - compontents                 // 组件目录
+              |    |   - common                 // 公共组件目录
+              |    |    |   Article-detail.vue  // 文章详情组件
+              |    |    |   Footer.vue          // 页脚组件
+              |    |    |   Nav.vue             // 导航组件
+              |    |    Articles.vue            // 文章列表组件
+              |    |    Index.vue               // 首页组件
+              |    |    Projects.vue            // 项目列表组件
+              |   - router
+              |       index.js                  // 前端路由配置文件
+              |   - sass                        // css预编译工具Sass，scss文件
+              |       _common.scss              // 公共样式
+             + static                           // 静态文件 存放图片、字体文件等
+   ```

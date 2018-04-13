@@ -87,6 +87,7 @@
   或
   cnpm install
 ```
+问题：出现一堆错误 如： vue-loader 、css-loader 等等。 原因： 我的项目用到了Sass，webpack 没有默认安装Sass 解决： cnpm install --save node-sass 其次 cnpm install --save sass-loader
 
 
 

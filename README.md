@@ -6,7 +6,6 @@
 
 分支 3： React   （未完成）Blog v1.3.0
 
-项目地址： http://www.istorms.net/
 
 服务器环境：
       

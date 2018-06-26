@@ -13,7 +13,7 @@ export default {
   },
   created () {
     this.$nextTick(() => {
-      axios.get('http://www.istorms.net/api/articles/?ordering=-id').then((response) => {
+      axios.get('XXX').then((response) => {
         this.articles = response.data.results
       })
     })

@@ -1,0 +1,63 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  padding: 0;
+}
+html, body {
+  width: 100%;
+  height: 100%;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+.icon-article {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background: url('assets/images/article_2.png');
+  background-size: 32px 32px;
+}
+.icon-project {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background: url('assets/images/project_2.png');
+  background-size: 32px 32px;
+}
+.icon-github {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background: url("assets/images/github.png");
+  background-size: 32px 32px;
+}
+.icon-twitter {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background: url("assets/images/twitter.png");
+  background-size: 32px 32px;
+}
+.icon-weibo {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background: url("assets/images/weibo.png");
+  background-size: 32px 32px;
+}
+.content p {
+  margin: 10px 0;
+  color: #333;
+}
+.content code{
+  display:block;
+  overflow-x:auto;
+  padding:0.5em;
+  color:#abb2bf;
+  background:#282c34
+}

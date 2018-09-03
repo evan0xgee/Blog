@@ -1,0 +1,16 @@
+<app-nav></app-nav>
+<div class="main-container-wrapper">
+  <div class="main-container">
+    <div class="article" *ngFor="let row of rows" >
+      <a class="detail-link" (click)="targetDetail(row)">
+        <p class="title">{{row?.article_name}}</p>
+      </a>
+      <p>
+        <span class="icon time-wrapper">
+          <span class="time icon-time"></span>
+          <span class="text">{{row?.add_time | date: 'yyyy-MM-dd hh:mm'}}</span></span>
+      </p>
+    </div>
+  </div>
+</div>
+<app-footer></app-footer>

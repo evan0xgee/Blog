@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "ngx-markdown": "^6.2.0",
+    "prismjs": "^1.15.0"
+  }
+}

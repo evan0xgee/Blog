@@ -1,0 +1,208 @@
+.aside-wrapper {
+  position: relative;
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  background: #36D1C4; }
+
+.main-container-wrapper {
+  display: inline-block;
+  vertical-align: top;
+  width: 49.95%;
+  height: 100%; }
+
+.main-container {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  margin: -97px 0 0 -107px;
+  line-height: 40px;
+  font-size: 16px;
+  color: #333;
+  text-align: left; }
+
+.title {
+  margin: 0 0 20px 0;
+  border-bottom: 2px solid #36D1C4; }
+
+.container {
+  display: block; }
+
+.nav-items {
+  padding: 40px 0 0 40px;
+  font-size: 16px;
+  text-align: left; }
+
+.nav-item {
+  display: inline-block;
+  line-height: 30px;
+  margin: 0 20px 0 0; }
+
+.icon {
+  display: block;
+  width: 32px;
+  font-size: 28px;
+  color: #475762;
+  text-align: center; }
+
+.aside {
+  position: relative;
+  display: inline-block;
+  width: 49.95%;
+  height: 100%;
+  background: #36D1C4; }
+
+.avatar {
+  border-radius: 50%; }
+
+.title {
+  position: relative;
+  margin: 20px 0 0 0;
+  color: #fff;
+  font-size: 32px; }
+  .title::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 100px;
+    height: 2px;
+    margin: 0 0 0 -50px;
+    background: #fff; }
+
+.avatar-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-35%, -45%);
+  line-height: 50px;
+  text-align: center; }
+
+.title {
+  margin: 20px 0 0 0; }
+
+.icon-item {
+  display: inline-block; }
+
+.icon {
+  margin: 0 15px 0 0;
+  color: #fff;
+  font-size: 24px; }
+
+.icon-article {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background: url("../../assets/images/article_2.png");
+  background-size: 32px 32px; }
+
+.icon-project {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background: url("../../assets/images/project_2.png");
+  background-size: 32px 32px; }
+
+.icon-github {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background: url("../../assets/images/github.png");
+  background-size: 32px 32px; }
+
+.icon-twitter {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background: url("../../assets/images/twitter.png");
+  background-size: 32px 32px; }
+
+.icon-weibo {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background: url("../../assets/images/weibo.png");
+  background-size: 32px 32px; }
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-device-pixel-ratio: 2) {
+  .icon-article {
+    width: 28px;
+    height: 32px;
+    background: url("../../assets/images/article@2x.png");
+    background-size: 28px 32px; }
+
+  .icon-project {
+    width: 28px;
+    height: 30px;
+    background: url("../../assets/images/project@2x.png");
+    background-size: 28px 30px; }
+
+  .icon-github {
+    width: 26px;
+    height: 28px;
+    background: url("../../assets/images/github@2x.png");
+    background-size: 26px 28px; }
+
+  .icon-twitter {
+    width: 29px;
+    height: 24px;
+    background: url("../../assets/images/twitter@2x.png");
+    background-size: 29px 24px; }
+
+  .icon-weibo {
+    width: 32px;
+    height: 25px;
+    background: url("../../assets/images/weibo@2x.png");
+    background-size: 32px 25px; } }
+@media (-webkit-min-device-pixel-ratio: 3), (min-device-pixel-ratio: 3) {
+  .icon-article {
+    width: 42px;
+    height: 48px;
+    background: url("../../assets/images/article@3x.png");
+    background-size: 42px 48px; }
+
+  .icon-project {
+    width: 42px;
+    height: 45px;
+    background: url("../../assets/images/project@3x.png");
+    background-size: 42px 45px; }
+
+  .icon-github {
+    width: 39px;
+    height: 42px;
+    background: url("../../assets/images/github@3x.png");
+    background-size: 39px 42px; }
+
+  .icon-twitter {
+    width: 44px;
+    height: 36px;
+    background: url("../../assets/images/twitter@3x.png");
+    background-size: 44px 36px; }
+
+  .icon-weibo {
+    width: 48px;
+    height: 38px;
+    background: url("../../assets/images/weibo@3x.png");
+    background-size: 48px 38px; } }
+@media screen and (min-width: 375px) and (max-width: 500px) {
+  .main-container-wrapper {
+    width: 100%;
+    height: 49.99vh; }
+
+  .nav-items {
+    padding: 3vh 0 2vh 3vh; }
+
+  .main-container {
+    position: relative;
+    left: 0;
+    display: inline-block;
+    margin: 0; }
+
+  .aside {
+    width: 100%;
+    height: 49.99vh; }
+
+  .avatar-wrapper {
+    transform: translate(-45%, -45%); } }
+
+/*# sourceMappingURL=dashboard.component.css.map */

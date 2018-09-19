@@ -5,3 +5,6 @@
 #### Branch React： React   （undone）Blog v1.2.0
 
 #### Branch Vue： Vue     （done） Blog v1.3.0
+
+2018-9-19 update Blog v1.3.1 done something.
+

@@ -6,6 +6,8 @@ import router from './router'
 
 import highlight from 'highlight.js'
 import 'highlight.js/styles/atom-one-dark.css'
+import store from './common/store/store'
+import moment from 'moment'
 
 Vue.config.productionTip = false
 
@@ -13,6 +15,7 @@ Vue.config.productionTip = false
 new Vue({
   el: '#app',
   router,
+  store,
   components: { App },
   template: '<App/>'
 })
@@ -22,4 +25,8 @@ Vue.directive('highlight', (el) => {
   codes.forEach((code) => {
     highlight.highlightBlock(code)
   })
+})
+
+Vue.filter('date', (data, pattern) => {
+  return moment(data).format(pattern)
 })

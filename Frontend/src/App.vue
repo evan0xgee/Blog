@@ -13,7 +13,7 @@ export default {
   },
   created () {
     this.$nextTick(() => {
-      axios.get('XXX').then((response) => {
+      axios.get('http://127.0.0.1:8000/articles').then((response) => {
         this.articles = response.data.results
       })
     })
@@ -30,7 +30,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   font-style: normal;
   text-align: center;
-  color: #333;
+  color: #2d3649;
   height: 100%;
 }
 

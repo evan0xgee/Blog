@@ -3,7 +3,7 @@
     <div class="nav-wrapper">
       <ul class="nav-items">
         <li class="nav-item">
-          <router-link to="/">
+          <router-link :to="{name: 'Index'}">
             <span class="icon "><img src="../../../static/images/home_1.png" alt="index"></span></router-link></li>
         <li class="nav-item">
           <router-link :to="{name: 'Articles'}">

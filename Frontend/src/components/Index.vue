@@ -52,11 +52,12 @@
         display: inline-block;
         line-height: 30px;
         margin: 0 20px 0 0;
+        color: #2d3649;
         .icon {
           display: block;
           width: 32px;
           font-size: 28px;
-          color: #475762;
+          color: #2d3649;
           text-align: center;
         }
       }
@@ -68,7 +69,7 @@
       margin: -97px 0 0 -107px;
       line-height: 40px;
       font-size: 16px;
-      color: #333;
+      color: #2d3649;
       text-align: left;
       .title {
         margin: 0 0 20px 0 ;
